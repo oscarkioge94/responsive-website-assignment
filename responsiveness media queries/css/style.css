@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/images/woman.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav > img:nth-child(1) {
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  animation-delay: 2s;
+}
+.nav > img:nth-child(2) {
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+  top: 90px;
+  left: 200px;
+  animation-delay: 3s;
+}
+.nav img {
+  animation: love 5s infinite;
+}
+.nav > img:nth-child(3) {
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+  top: 150px;
+  left: 380px;
+  animation-delay: 4.5s;
+}
+.nav ul {
+  display: inline-flex;
+}
+.nav ul li {
+  text-decoration: none;
+  list-style: none;
+  color: tomato;
+  margin-left: 80px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  padding: 10px 30px;
+  background-color: tomato;
+  margin-right: 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+@keyframes love {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} ;

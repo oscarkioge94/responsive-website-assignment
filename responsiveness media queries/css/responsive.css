@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+  .nav ul {
+    display: none;
+  }
+  .nav a {
+    display: none;
+  }
+  .nav img:nth-child(2) {
+    margin-left: 20px;
+    position: absolute;
+    top: 3px;
+  }
+} ;
